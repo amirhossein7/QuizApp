@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="TRUE">True</string>
+    <string name="FALSE">False</string>
+    <string name="qustions_placeholder">qustions ...</string>
+    <string name="correct_message">It\'s Correct</string>
+    <string name="wrong_message">It\'s Wrong</string>
+</resources>
