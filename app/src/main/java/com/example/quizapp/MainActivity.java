@@ -14,13 +14,18 @@ public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;
 
     private QuestionModel[] questionBank = {
-            new QuestionModel("q1", true),
-            new QuestionModel("q2", false),
-            new QuestionModel("q3", true),
-            new QuestionModel("q4", false)
+            new QuestionModel("You can write android app with JAVA languageِ", true),
+            new QuestionModel("Khoramabad is a city in the Kerman province", false),
+            new QuestionModel("110 is an emergency call for call to police station in Iran", true),
+            new QuestionModel("Apple's phones use the android as their OS", false),
+            new QuestionModel("Mount Everest is a tallest mountain in the earth", true),
+            new QuestionModel("China is the most populous country in the world", true),
+            new QuestionModel("Canada is located in south america continent", false)
     };
 
     private int qIndex = 0;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
